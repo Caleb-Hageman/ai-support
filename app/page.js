@@ -66,7 +66,7 @@ export default function Home() {
       alignItems={'center'}
       gap={2}
     >
-      <Typography variant="h1">Hello World</Typography>
+      <Typography variant="h1">This is AI Customer Support</Typography>
       <SpeedDial
         ariaLabel="SpeedDial controlled open example"
         sx={{ position: 'absolute', bottom: 16, right: 16 }}
