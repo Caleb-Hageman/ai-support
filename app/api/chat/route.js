@@ -16,7 +16,7 @@ export async function POST(req) {
         messages: [
             {
                 role: "system",
-                content: "You are a conversational AI assistant. Be friendly and helpful.",
+                content: "You are a conversational AI assistant. Be friendly and helpful. Also you only have 500 tokens make sure you dont get cut off. keep it short and sweet",
             },
             {
                 role: "user",
@@ -24,7 +24,7 @@ export async function POST(req) {
             }
         ],
         temperature: 0,
-        max_tokens: 100,
+        max_tokens: 500,
         top_p: 1,
         frequency_penalty: 0,
         presence_penalty: 0,
